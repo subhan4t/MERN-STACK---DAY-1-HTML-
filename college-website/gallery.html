@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saveetha Engineering college</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        *{
+           background-color: #F5F5F5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery-item {
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            .gallery-item {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery-item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <td width="10%">
+                    <img src="images/sec-logo.png" alt="sec-logo" placeholder="sec-logo" width="60px">
+                </td>
+                <th width="90%" align="left" style="font-size: xx-large;color: #333333;">SAVEETHA ENGINEERING COLLEGE</th>
+
+            </tr>
+        
+            
+        
+        </thead>
+    </table>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="nav"><a href="index.html">Home</a></li>
+            <li id="nav"><a href="academics.html">Academics</a></li>
+            <li id="nav"><a href="">Admission</a></li>
+            <li id="nav"><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/sec-img-fullview.png" alt="Image Description 1">
+        </div>
+        <div class="gallery-item">
+            <img src="images/classroom.png" alt="Image Description 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/hostel.jpg" alt="Image Description 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images/arvr.jpeg" alt="Image Description 4">
+        </div>
+        <div class="gallery-item">
+            <img src="images/parking.jpeg" alt="Image Description 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/gym.jpg" alt="Image Description 6">
+        </div>
+        <!-- Add more images as needed -->
+    </div>
+
+
+    
+
+    
+</body>
+</html>
